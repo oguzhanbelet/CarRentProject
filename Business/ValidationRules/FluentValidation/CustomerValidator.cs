@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Business.ValidationRules.FluentValidation
 {
-    public class BrandValidator:AbstractValidator<Brand>
+    public class CustomerValidator:AbstractValidator<Customer>
     {
-        public BrandValidator()
+        public CustomerValidator()
         {
-            RuleFor(b => b.BrandName).NotEmpty();
-            RuleFor(b => b.BrandName).MinimumLength(2);
+            RuleFor(cu => cu.CompanyName).NotEmpty();
+            RuleFor(cu => cu.CompanyName).MinimumLength(2);
         }
     }
 }
