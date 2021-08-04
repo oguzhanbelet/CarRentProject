@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,8 +30,8 @@ namespace Business.Constants
         public static string ColorCantDeleted = "renk silinemedi";
         public static string ColorsListed = "renkler listelendi";
         public static string ColorListed = "renk listelendi";
-        public static string ColorUpdated  ="renk güncellendi";
-        public static string ColorCantUpdated ="renk güncellenemedi";
+        public static string ColorUpdated = "renk güncellendi";
+        public static string ColorCantUpdated = "renk güncellenemedi";
         public static string UserAdded = "üye eklendi";
         public static string UserCantDeleted = "üye silinemedi";
         public static string UserDeleted = "üye silindi";
@@ -50,15 +52,22 @@ namespace Business.Constants
         public static string CustomerCantDeleted = "kullanıcı silinemedi";
         public static string CustomerDeleted = "kullanıcı silindi";
         public static string CustomerAdded = "kullanıcı eklendi";
-        public static string CarImageAdded="araç fotografi eklendi";
-        public static string CarImageDeleted="araç fotografi silindi";
-        public static string CarImageCantDeleted="araç fotografi silinemedi";
-        public static string CarImagesListed="araç görüntüleri listelendi";
-        public static string CarImageListed="araç görüntüsü listelendi";
-        public static string CarImageUpdated="araç görünüsütü güncellendi";
-        public static string CarImageCantUpdated="araç görüntüsü güncellenemedi";
-        public static string CarImageLimitExceeded="fotoğraf sayısı 5 i geçemez";
-        public static string CarImageNotFound="araç gorseli bulanamadi";
-        internal static string ImageAdded;
+        public static string CarImageAdded = "araç fotografi eklendi";
+        public static string CarImageDeleted = "araç fotografi silindi";
+        public static string CarImageCantDeleted = "araç fotografi silinemedi";
+        public static string CarImagesListed = "araç görüntüleri listelendi";
+        public static string CarImageListed = "araç görüntüsü listelendi";
+        public static string CarImageUpdated = "araç görünüsütü güncellendi";
+        public static string CarImageCantUpdated = "araç görüntüsü güncellenemedi";
+        public static string CarImageLimitExceeded = "fotoğraf sayısı 5 i geçemez";
+        public static string CarImageNotFound = "araç gorseli bulanamadi";
+        public static string ImageAdded = "görsel eklendi";
+        public static string AuthorizationDenied = "Authorization Denied";
+        public static string UserRegistered = "User Registered";
+        public static string UserNotFound = "User Not Found.";
+        public static string PasswordError = "Password Error";
+        public static string SuccesfulLogin = "Successfull Login";
+        public static string UserAlreadyExists = "User Already Exists";
+        public static string AccessTokenCreated = "Access Token Created";
     }
 }
